@@ -1,2 +1,1 @@
-# EXCEL_BIKE_SALES_PROJECT
-This project provides a foundational analysis of bike sales data.
+This project involves the analysis of bike sales data to uncover insights about customer demographics, purchasing behavior, and income levels. The analysis is structured in an Excel workbook containing several sheets with raw data, processed data, pivot tables, and a dashboard.
