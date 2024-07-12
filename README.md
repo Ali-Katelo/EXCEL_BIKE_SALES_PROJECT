@@ -7,10 +7,11 @@ This project involves the analysis of bike sales data to uncover insights about 
 ## File Structure
 The Excel workbook comprises the following sheets:
 
-bike_buyers
-Working_Sheet
-Pivot_Tables
-Dashboard
+1.bike_buyers
+2. Working_Sheet
+3. Pivot_Tables
+4. Dashboard
+
 1. bike_buyers
 This sheet contains raw data about bike buyers with the following columns:
 
@@ -80,7 +81,7 @@ Column Labels: Purchased Bike (Yes, No)
 Values: Average Income
 This pivot table provides an overview of the average income of buyers segmented by gender and whether they purchased a bike. It helps in understanding the income distribution among different demographics and their purchasing decisions.
 
-Steps to Create Pivot Table:
+## Steps to Create Pivot Table:
 
 Select Data: Highlight the range of data from the Working_Sheet including columns for Gender, Income, and Purchased Bike.
 Insert Pivot Table:
@@ -93,7 +94,9 @@ Drag Purchased Bike to the Columns area.
 Drag Income to the Values area and set it to show Average of Income.
 Format Pivot Table:
 Adjust the number format for the average income to display as currency or number with appropriate decimal places.
-Create Clustered Column Chart:
+                             
+## Create Clustered Column Chart:
+                             
 Highlight the pivot table.
 Go to the Insert tab and select Clustered Column Chart.
 Pivot Table 2: Customer Commute (Line Chart)
@@ -102,25 +105,7 @@ Column Labels: Purchased Bike (Yes, No)
 Values: Count of IDs
 This pivot table shows the distribution of customers based on their commute distance and whether they purchased a bike.
 
-Steps to Create Pivot Table:
 
-Select Data: Highlight the range of data from the Working_Sheet including columns for Commute Distance and Purchased Bike.
-Insert Pivot Table:
-Go to the Insert tab.
-Click on PivotTable.
-Choose to place the pivot table in a new worksheet or existing worksheet.
-Configure Pivot Table:
-Drag Commute Distance to the Rows area.
-Drag Purchased Bike to the Columns area.
-Drag ID to the Values area and set it to show Count of IDs.
-Create Line Chart:
-Highlight the pivot table.
-Go to the Insert tab and select Line Chart.
-Pivot Table 3: Customer Age Bracket (Stacked Line with Markers)
-Row Labels: Age Brackets
-Column Labels: Purchased Bike (Yes, No)
-Values: Count of IDs
-This pivot table illustrates the number of customers in different age brackets and whether they purchased a bike.
 
 ## 3. Steps to Create Pivot Table:
 
